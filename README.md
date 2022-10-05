@@ -12,7 +12,7 @@ The purpose of this analysis was to use deep-learning neural netowrks to analyze
 
 ### Compiling, Training, and Evaluating the Model
 
--This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively. The input data has 43 features and 25,724 samples. The output layer is made of a unique neuron as it is a binary classification. To speed up the training process, we are using the activation function ReLU for the hidden layers. As our output is a binary classification, Sigmoid is used on the output layer. For the compilation, the optimizer is adam and the loss function is binary_crossentropy.
+- This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively. The input data has 43 features and 25,724 samples. The output layer is made of a unique neuron as it is a binary classification. To speed up the training process, we are using the activation function ReLU for the hidden layers. As our output is a binary classification, Sigmoid is used on the output layer. For the compilation, the optimizer is adam and the loss function is binary_crossentropy.
 - The model accuracy was under 75%. This would not be considered a successful model performance for the charity donations.
 - To increase the performance of the model, we applied bucketing to the feature ASK_AMT and organized the different values by intervals. We increased the number of neurons on one of the hidden layers, additionally we used a model with three hidden layers. We also tried a different activation function (tanh) but none of these steps helped improve the model's performance.
 
